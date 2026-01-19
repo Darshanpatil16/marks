@@ -1,7 +1,7 @@
 import sys
 import math
 def avg_marks(marks):
-    for i in range(len(marks)):
+    for i in range(1,len(marks)):
         sum=0
         sum+=marks[i]
     avg=sum/len(marks)
