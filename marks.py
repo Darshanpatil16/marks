@@ -1,10 +1,8 @@
 import sys
 import math
 def avg_marks(marks):
-    for i in range(1,len(marks)):
-        sum=0
-        sum+=marks[i]
-    avg=sum/len(marks)
+    
+    avg=sum(marks)/len(marks)
     return avg
 if  __name__ == "__main__":
     if len(sys.argv)>1:
