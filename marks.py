@@ -7,9 +7,9 @@ def avg_marks(marks):
 if  __name__ == "__main__":
     if len(sys.argv)>1:
         marks=[
-            float(sys.argv[1])
-            float(sys.argv[2])
-            float(sys.argv[3])
+            a=float(sys.argv[1])
+            b=float(sys.argv[2])
+           c= float(sys.argv[3])
         ]
         
     else:
